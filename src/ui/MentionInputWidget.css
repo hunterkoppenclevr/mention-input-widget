@@ -1,0 +1,60 @@
+.mx-widget-mentions {
+    position: "relative" 
+}
+
+.mx-widget-mentions .mentions .mentions__highlighter {
+    display: block;
+}
+
+.mx-widget-mentions .mentions .mentions__highlighter--singleLine {
+    white-space: nowrap;
+}
+
+.mx-widget-mentions .mentions__input {
+    margin: 0 !important;
+}
+
+.mx-widget-mentions .mentions__suggestions__list {
+    background-color: white;
+    border: 1px solid #ddd;
+    z-index: 3;
+}
+
+.mx-widget-mentions .mentions__suggestions__item {
+    border-bottom: 1px solid #ddd;
+}
+
+.mx-widget-mentions .mentions__suggestions__item--focused {
+    background-color: #e7e7e9;
+}
+
+.mx-widget-mentions .mentions__mention {
+    position: relative;
+    z-index: 1;
+    color: #020557;
+    pointer-events: none;
+}
+
+.mx-widget-mentions-readonly .mentions__input {
+    border: none;
+    pointer-events: none;
+}
+.mx-widget-mentions-readonly .mentions__highlighter {
+    border: none !important;
+}
+
+.mx-widget-mentions .emoji__button {
+    position: absolute;
+    cursor: pointer;
+    padding: 9px;
+    bottom: 0px;
+    right: 0px;
+    background-color: transparent;
+    border: 0;
+}
+
+.mx-widget-mentions .emoji__picker {
+    position: absolute;
+    right: 0;
+    z-index: 999;
+}

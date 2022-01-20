@@ -1,0 +1,38 @@
+{
+  "name": "mentioninputwidget",
+  "widgetName": "MentionInputWidget",
+  "version": "1.0.0",
+  "description": "Textbox widget for mentioning someone or something in the textarea itself based on a dropdown. Like when using @ in Slack or Teams.",
+  "copyright": "2021 CLEVR NL B.V.",
+  "author": "Hunter Koppen",
+  "engines": {
+    "node": ">=12"
+  },
+  "config": {
+    "projectPath": "../..//",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": "3000"
+  },
+  "eslintIgnore": [
+    "google.js"
+  ],
+  "packagePath": "clevr",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^9.8.0",
+    "@rollup/plugin-json": "^4.1.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "emoji-mart": "^3.0.1",
+    "react-mentions": "^4.3.0"
+  }
+}

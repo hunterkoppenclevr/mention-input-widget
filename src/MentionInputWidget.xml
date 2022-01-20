@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="clevr.mentioninputwidget.MentionInputWidget" pluginWidget="true" needsEntityContext="true" offlineCapable="true" supportedPlatform="Web"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Mention Input Widget</name>
+    <description/>
+    <icon>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
+    </icon>
+    <properties>
+        <propertyGroup caption="General">
+            <propertyGroup caption="General">
+                <property key="placeholder" type="expression" required="false">
+                    <caption>Placeholder text</caption>
+                    <description></description>
+                    <returnType type="String" />
+                </property>
+                <property key="renderMode" type="enumeration" defaultValue="textarea">
+                    <caption>Render Mode</caption>
+                    <description>Render the widget as a textarea (multiline) or textbox (singleline)</description>
+                    <enumerationValues>
+                        <enumerationValue key="textarea">Textarea</enumerationValue>
+                        <enumerationValue key="textbox">Textbox</enumerationValue>
+                    </enumerationValues>
+                </property>
+            </propertyGroup>
+            <propertyGroup caption="Visibility">
+                <systemProperty key="Visibility"/>
+            </propertyGroup>
+            <propertyGroup caption="Editability">
+                <systemProperty key="Editability"/>
+            </propertyGroup>
+            <propertyGroup caption="Datasource">
+                <property key="valueAttribute" type="attribute">
+                    <caption>Value attribute</caption>
+                    <description>The attribute that contains the text value</description>
+                    <attributeTypes>
+                        <attributeType name="String"/>
+                    </attributeTypes>
+                </property>
+            </propertyGroup>
+        </propertyGroup>
+        <propertyGroup caption="Mentions">
+            <propertyGroup caption="Datasource">
+                <property key="datasource" type="datasource" isList="true">
+                    <caption>Mentions list</caption>
+                    <description>List of object to show in the mention dropdown</description>
+                </property>
+                <property key="suggestionContent" type="widgets" required="false" dataSource="datasource">
+                    <caption>Content</caption>
+                    <description>Listitem content for the suuggestionlist.</description>
+                </property>
+                <property key="objLabel" type="attribute" required="true" dataSource="datasource">
+                    <caption>Mention label</caption>
+                    <description>The label attribute of the mention objects which will be shown in the text</description>
+                    <attributeTypes>
+                        <attributeType name="String"/>
+                    </attributeTypes>
+                </property>
+            </propertyGroup>
+            <propertyGroup caption="General">
+                <property key="mentionTrigger" type="string" defaultValue="@" required="true">
+                    <caption>Trigger symbol</caption>
+                    <description></description>
+                </property>
+                <property key="keepTriggerSymbol" type="boolean" defaultValue="true">
+                    <caption>Keep trigger symbol</caption>
+                    <description>Keep the trigger symbol in the text after adding a mention.</description>
+                </property>
+                <property key="allowSuggestionsAboveCursor" type="boolean" defaultValue="false">
+                    <caption>Suggestions at cursor</caption>
+                    <description>Renders the SuggestionList at the cursor if there is not enough space below</description>
+                </property>
+                <property key="allowSpaceInQuery" type="boolean" defaultValue="true">
+                    <caption>Allow spaces</caption>
+                    <description>Keep suggestions open even if the user separates keywords with spaces.</description>
+                </property>
+            </propertyGroup>
+        </propertyGroup>
+        <propertyGroup caption="Emoji's">
+            <propertyGroup caption="General">
+                <property key="emojiEnabled" type="boolean" defaultValue="true">
+                    <caption>Emoji's enabled</caption>
+                    <description/>
+                </property>
+            </propertyGroup>
+            <propertyGroup caption="Display">
+                <property key="emojiPickerTheme" type="enumeration" defaultValue="light">
+                    <caption>Picker Theme</caption>
+                    <description>Set a light or darkmode theme for the Emoji picker popup</description>
+                    <enumerationValues>
+                        <enumerationValue key="light">Light</enumerationValue>
+                        <enumerationValue key="dark">Dark</enumerationValue>
+                    </enumerationValues>
+                </property>
+                <property key="emojiTopbarColor" type="string" defaultValue="#333" required="true">
+                    <caption>Topbar color</caption>
+                    <description>The top bar category select and hover color</description>
+                </property>
+            </propertyGroup>
+            <propertyGroup caption="Accessibility">
+                <property key="autoFocusSearch" type="boolean" defaultValue="false">
+                    <caption>Autofocus search</caption>
+                    <description>When the emoji popup is opened autofocus on the searchfield.</description>
+                </property>
+                <property key="autoConvertEmoji" type="boolean" defaultValue="true">
+                    <caption>Autoconvert common smileys</caption>
+                    <description>Automatically convert text smileys to emoji's (e.g. :D)</description>
+                </property>
+            </propertyGroup>
+        </propertyGroup>
+        <propertyGroup caption="Events">
+            <propertyGroup caption="Input Events">
+                <property key="onEnterAction" type="action" required="false">
+                    <caption>On enter</caption>
+                    <description/>
+                </property>
+                <property key="onLeaveAction" type="action" required="false">
+                    <caption>On leave</caption>
+                    <description></description>
+                </property>
+                <property key="onChangeAction" type="action" required="false">
+                    <caption>On change</caption>
+                    <description></description>
+                </property>
+            </propertyGroup>
+            <propertyGroup caption="Mention Events">
+                <property key="onAddMentionAction" type="action" required="false" dataSource="datasource">
+                    <caption>On add mention action</caption>
+                    <description>Action to trigger when a mention is added</description>
+                </property>
+                <property key="onRemoveMentionAction" type="action" required="false" dataSource="datasource">
+                    <caption>On remove mention action</caption>
+                    <description>Action to trigger when a mention is removed</description>
+                </property>
+            </propertyGroup>
+        </propertyGroup>
+    </properties>
+</widget>
